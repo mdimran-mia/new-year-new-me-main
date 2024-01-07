@@ -1,0 +1,48 @@
+* {
+    font-family: Work Sans;
+}
+
+
+.header {
+    background-image: url('../images/banner/banner1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.container {
+    text-align: right;
+}
+
+.container .container-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    max-width: 525px;
+    padding: 216px 130px 0px 700px;
+    margin-bottom: 0px;
+
+}
+
+.container .container-description {
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 494px;
+    padding: 0px 0px 0px 700px;
+    margin-bottom: 30px;
+}
+
+.container button {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 137px;
+}
