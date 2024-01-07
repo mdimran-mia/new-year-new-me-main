@@ -47,6 +47,7 @@
     font-size: 20px;
     font-weight: 600;
     margin: 0px 137px 166px 0px;
+    cursor: pointer;
 }
 
 .profile-section {
@@ -121,6 +122,10 @@
     margin: 40px 180px 0 180px;
 }
 
+.wishes-container .wishes{
+    cursor: pointer;
+}
+
 .my-plan>.w-title {
     color: #151414;
     text-align: center;
@@ -164,6 +169,7 @@
     font-size: 20px;
     font-weight: 600;
     padding: 10px 15px;
+    cursor: pointer;
 }
 
 footer {
@@ -187,6 +193,7 @@ footer .content .social-links {
 
 footer .content .social-links a {
     margin-right: 20px;
+    cursor: pointer;
 }
 
 footer .title {
@@ -236,5 +243,6 @@ footer .content button {
     padding: 10px 15px;
     margin-top: 16px;
     border: 0;
+    cursor: pointer;
     
 }
