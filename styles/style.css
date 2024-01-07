@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     width: 100%;
     margin-bottom: 140px;
+    top: 0px
 }
 
 .container {
@@ -52,6 +53,7 @@
     display: flex;
     gap: 60px;
     margin-top: 300px;
+    margin-bottom: 0px;
 }
 
 .profile-section .content {
@@ -74,7 +76,7 @@
 }
 
 .profile-section .content2 .content-title {
-    color#151414;
+    color: #151414;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -97,7 +99,142 @@
     margin-bottom: 8px;
 }
 
-.profile-section .content2 .options p i{
+.profile-section .content2 .options p i {
     color: green;
 }
 
+.my-plan {
+    text-align: center;
+    margin: 150px 0;
+}
+
+.my-plan .main-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0 100px 0;
+}
+
+.my-plan>.wishes-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 180px 0 180px;
+}
+
+.my-plan>.w-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.my-plan>.description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.call {
+    background-image: url('../images/watch.png');
+    position: relative;
+    background-repeat: no-repeat;
+    left: 97px;
+}
+
+.call>.call-container {
+    position: relative;
+    bottom: 270px;
+    left: 70px;
+}
+
+.call .call-title {
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.call button {
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+footer {
+    background-color: #151414;
+    margin-top: 0;
+    color: white;
+    display: flex;
+    gap: 100px;
+    padding: 100px 170px;
+}
+
+footer .content {
+    text-align: left;
+    width: 50%;
+
+}
+
+footer .content .social-links {
+    display: flex;
+}
+
+footer .content .social-links a {
+    margin: 20px;
+}
+
+footer .title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+footer .description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+footer li {
+    color: #FFF;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+footer .content .subscribe {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+footer .content .email {
+    display: block;
+    padding: 10px;
+    width: 50%;
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+
+footer .content button {
+    border-radius: 8px;
+    background: #005FAC;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 15px;
+    margin-top: 16px;
+    border: 0;
+    
+}
